@@ -1,17 +1,31 @@
 {
-  "dataStudio": {
-    "name": "Image Display",
-    "logoUrl": "https://example.com/logo.png",
-    "company": "Your Company",
-    "description": "Displays images from URL field",
-    "components": [
+  "name": "Image URL Viewer",
+  "description": "A community visualization that displays images from a URL field.",
+  "data": {
+    "datasets": [
       {
-        "name": "imageComponent",
-        "script": "https://raw.githubusercontent.com/yourusername/reiddossinger/main/index.js"
+        "id": "DEFAULT",
+        "required": true,
+        "fields": [
+          {
+            "id": "imageUrl",
+            "name": "Image URL",
+            "type": "TEXT",
+            "concept": "DIMENSION"
+          }
+        ]
       }
-    ],
-    "shortDescription": "Shows images from a URL field",
-    "createVisualizationUrl": "https://raw.githubusercontent.com/reiddossinger/ls-image-table/main/manifest.json"
-  }
+    ]
+  },
+  "resources": {
+    "scripts": [
+      {
+        "name": "main-script",
+        "url": "https://raw.githubusercontent.com/reiddossinger/ls-image-table/main/index.js"
+      }
+    ]
+  },
+  "logoUrl": "https://YOUR_LOGO_URL", 
+  "iconUrl": "https://YOUR_ICON_URL",
+  "version": "1.0.0"
 }
-
