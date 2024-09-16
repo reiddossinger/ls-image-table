@@ -7,10 +7,11 @@
     "components": [
       {
         "name": "imageComponent",
-        "script": "index.js"
+        "script": "https://raw.githubusercontent.com/yourusername/reiddossinger/main/index.js"
       }
     ],
     "shortDescription": "Shows images from a URL field",
-    "createVisualizationUrl": "https://script.google.com/macros/your-script-id"
+    "createVisualizationUrl": "https://raw.githubusercontent.com/reiddossinger/ls-image-table/main/manifest.json"
   }
 }
+
