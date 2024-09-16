@@ -1,0 +1,16 @@
+{
+  "dataStudio": {
+    "name": "Image Display",
+    "logoUrl": "https://example.com/logo.png",
+    "company": "Your Company",
+    "description": "Displays images from URL field",
+    "components": [
+      {
+        "name": "imageComponent",
+        "script": "index.js"
+      }
+    ],
+    "shortDescription": "Shows images from a URL field",
+    "createVisualizationUrl": "https://script.google.com/macros/your-script-id"
+  }
+}
